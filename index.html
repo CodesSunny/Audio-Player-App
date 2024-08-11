@@ -33,7 +33,7 @@
                 <div id="controls">
                     <button id="volume-btn" class="toolbar">
                         <div id="volume-box">
-                            <input type="range" id="volume"/>
+                            <input type="range" id="volume" min="0" max="1" step="0.01"/>
                         </div>
                         <i class="ri-volume-up-line"></i>
                     </button>
@@ -54,5 +54,6 @@
         </div>
     </div>
     <script src="js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>
